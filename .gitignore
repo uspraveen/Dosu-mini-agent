@@ -1,0 +1,30 @@
+# Virtual environment
+.env/
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE/project settings
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and test results
+*.log
+*.out
+*.pid
+coverage/
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local environment variables
+.env

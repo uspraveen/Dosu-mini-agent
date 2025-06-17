@@ -1,0 +1,33 @@
+# Core FastAPI and async dependencies
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+
+# Database
+sqlalchemy>=2.0.23
+asyncpg>=0.29.0
+psycopg2-binary>=2.9.9
+
+# Enhanced features
+aiohttp>=3.9.1
+aiofiles>=23.2.0
+redis>=5.0.1
+
+# MinHash and similarity (your existing)
+datasketch>=1.6.4
+numpy>=1.24.3
+
+# Semantic similarity (optional but recommended)
+sentence-transformers>=2.2.2
+
+# Code analysis
+pygments>=2.17.2
+GitPython>=3.1.40
+
+# Testing
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+requests>=2.31.0
+
+# Optional: For production deployment
+gunicorn>=21.2.0
